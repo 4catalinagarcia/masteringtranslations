@@ -99,23 +99,6 @@
     });
   }
 
-  // Contact form — client-side only until connected to a form service (see README).
-  var form = document.getElementById("contact-form");
-  var formStatus = document.getElementById("form-status");
-  if (form && formStatus) {
-    form.addEventListener("submit", function (e) {
-      var action = form.getAttribute("action") || "";
-      if (action.indexOf("YOUR_FORM_ID") !== -1) {
-        e.preventDefault();
-        formStatus.textContent =
-          currentLang === "es"
-            ? "El formulario aún no está conectado. Vea README.md para activarlo, o llame/envíe un correo directamente."
-            : "This form isn't connected yet. See README.md to activate it, or call/email directly for now.";
-        formStatus.hidden = false;
-      }
-    });
-  }
-
   // Footer year
   var yearEl = document.getElementById("current-year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
