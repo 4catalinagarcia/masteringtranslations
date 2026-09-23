@@ -119,4 +119,67 @@
   // Footer year
   var yearEl = document.getElementById("current-year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  // Visitor counter (Supabase-backed; counts once per browser via localStorage)
+  var SUPABASE_URL = "https://skjhdugpjhpwurdgfkgg.supabase.co";
+  var SUPABASE_KEY = "sb_publishable_HZD5VLYscUzQYPkLOHUtzQ_fZcnxtVV";
+  var VISITED_KEY = "mt_visited";
+
+  var visitorsWrap = document.getElementById("footer-visitors");
+  var visitorCountEl = document.getElementById("visitor-count");
+
+  function showVisitorCount(count) {
+    if (!visitorsWrap || !visitorCountEl || typeof count !== "number") return;
+    visitorCountEl.textContent = count.toLocaleString();
+    visitorsWrap.hidden = false;
+  }
+
+  function hasVisitedBefore() {
+    try {
+      return localStorage.getItem(VISITED_KEY) === "1";
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function markVisited() {
+    try {
+      localStorage.setItem(VISITED_KEY, "1");
+    } catch (e) {
+      /* ignore — non-critical persistence */
+    }
+  }
+
+  if (visitorsWrap && visitorCountEl) {
+    if (hasVisitedBefore()) {
+      fetch(SUPABASE_URL + "/rest/v1/visitor_counter?select=count&id=eq.1", {
+        headers: {
+          apikey: SUPABASE_KEY,
+          Authorization: "Bearer " + SUPABASE_KEY,
+          Accept: "application/vnd.pgrst.object+json"
+        }
+      })
+        .then(function (res) { return res.ok ? res.json() : null; })
+        .then(function (data) { if (data) showVisitorCount(data.count); })
+        .catch(function () { /* fail silently — counter is decorative */ });
+    } else {
+      fetch(SUPABASE_URL + "/rest/v1/rpc/increment_visitor_count", {
+        method: "POST",
+        headers: {
+          apikey: SUPABASE_KEY,
+          Authorization: "Bearer " + SUPABASE_KEY,
+          "Content-Type": "application/json"
+        },
+        body: "{}"
+      })
+        .then(function (res) { return res.ok ? res.json() : null; })
+        .then(function (count) {
+          if (typeof count === "number") {
+            markVisited();
+            showVisitorCount(count);
+          }
+        })
+        .catch(function () { /* fail silently — counter is decorative */ });
+    }
+  }
 })();

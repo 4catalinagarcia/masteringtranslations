@@ -138,7 +138,8 @@ const translations = {
     "footer.tagline": "Bridging languages. Building trust.",
     "footer.rights": "© 2026 Mastering Translations, LLC. All rights reserved.",
     "footer.spanish": "Se habla español.",
-    "footer.disclaimer": "Certified translations available upon request. Interpretation services are not a substitute for legal or medical advice."
+    "footer.disclaimer": "Certified translations available upon request. Interpretation services are not a substitute for legal or medical advice.",
+    "footer.visitors.label": "Visitors welcomed:"
   },
 
   es: {
@@ -276,6 +277,7 @@ const translations = {
     "footer.tagline": "Conectando idiomas. Construyendo confianza.",
     "footer.rights": "© 2026 Mastering Translations, LLC. Todos los derechos reservados.",
     "footer.spanish": "Se habla español.",
-    "footer.disclaimer": "Traducciones certificadas disponibles a solicitud. Los servicios de interpretación no sustituyen el asesoramiento legal o médico."
+    "footer.disclaimer": "Traducciones certificadas disponibles a solicitud. Los servicios de interpretación no sustituyen el asesoramiento legal o médico.",
+    "footer.visitors.label": "Visitantes recibidos:"
   }
 };
