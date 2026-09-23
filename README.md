@@ -13,7 +13,7 @@ A static, bilingual (English/Spanish) one-page website. No build step, no server
 
 All visible text lives in **`js/translations.js`**, once for English (`en`) and once for Spanish (`es`), using matching keys (e.g. `"hero.title"`). To change what a section says, edit the string on both sides of the dictionary — you don't need to touch `index.html` for text changes.
 
-Real phone (`(754) 302-0237`) and email (`nataliabernaltraducciones@gmail.com`) are already wired into `translations.js` and the `tel:`/`mailto:` links in `index.html`.
+Real phone (`(754) 302-0237`) and email (`info@masteringtranslations.com`) are already wired into `translations.js` and the `tel:`/`mailto:` links in `index.html`.
 
 Still a placeholder before launch:
 - Testimonials — currently placeholder quotes; replace with real client testimonials (with permission) and delete the note under them.
