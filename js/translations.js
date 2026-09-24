@@ -127,7 +127,7 @@ const translations = {
 
   es: {
     "meta.title": "Mastering Translations, LLC | Traducción e Interpretación Español ⇄ Inglés",
-    "meta.description": "Traducción certificada de documentos español-inglés e interpretación profesional para casos de inmigración, legales, médicos, de seguros, lesiones personales y asilo. Atendemos Broward, Miami-Dade y Palm Beach en persona, y clientes en todo el mundo de forma virtual.",
+    "meta.description": "Traducción certificada de documentos español-inglés e interpretación profesional para casos de inmigración, legales, médicos, de seguros, lesiones personales y asilo. Atendemos Broward, Miami-Dade y Palm Beach de forma presencial, y clientes en todo el mundo de forma virtual.",
 
     "skip.content": "Saltar al contenido",
 
@@ -146,10 +146,10 @@ const translations = {
 
     "hero.eyebrow": "Servicios Certificados de Español ⇄ Inglés",
     "hero.title": "Conectando Idiomas. <span>Construyendo Confianza.</span>",
-    "hero.subtitle": "Traducción de documentos e interpretación profesional para asuntos de inmigración, legales, médicos, de seguros y lesiones personales — atendemos el sur de la Florida en persona y a clientes en todo el mundo, de forma virtual.",
+    "hero.subtitle": "Traducción de documentos e interpretación profesional para asuntos de inmigración, legales, médicos, de seguros y lesiones personales — atendemos el sur de la Florida de forma presencial y a clientes en todo el mundo, de forma virtual.",
     "hero.cta.quote": "Solicitar Cotización Gratis",
     "hero.cta.call": "Llame al (754) 302-0237",
-    "hero.badge.1": "En Persona: Broward · Miami-Dade · Palm Beach",
+    "hero.badge.1": "Presencial: Broward · Miami-Dade · Palm Beach",
     "hero.badge.2": "Virtual: Disponible en Todo el Mundo",
     "hero.badge.3": "Confidencial y Profesional",
 
@@ -168,7 +168,7 @@ const translations = {
     "services.doc.item7": "Comunicaciones corporativas",
 
     "services.interp.title": "Servicios de Interpretación",
-    "services.interp.desc": "Interpretación simultánea y consecutiva, experta y discreta, disponible en persona en el sur de la Florida o de forma virtual a nivel nacional.",
+    "services.interp.desc": "Interpretación simultánea y consecutiva, experta y discreta, disponible de forma presencial en el sur de la Florida o de forma virtual a nivel nacional.",
     "services.interp.item1": "Entrevistas y audiencias de inmigración",
     "services.interp.item2": "Declaraciones juradas, mediaciones y audiencias judiciales",
     "services.interp.item3": "Citas médicas y visitas de salud",
@@ -186,7 +186,7 @@ const translations = {
     "areas.eyebrow": "Dónde Trabajamos",
     "areas.title": "Atendemos al Sur de la Florida — y al Mundo",
     "areas.subtitle": "Citas presenciales en todo el sur de la Florida. Servicios virtuales disponibles en cualquier momento y lugar.",
-    "areas.inperson.title": "En Persona",
+    "areas.inperson.title": "Presencial",
     "areas.inperson.broward": "Condado de Broward",
     "areas.inperson.miamidade": "Condado de Miami-Dade",
     "areas.inperson.palmbeach": "Condado de Palm Beach",
@@ -238,7 +238,7 @@ const translations = {
     "contact.info.hours.label": "Horario",
     "contact.info.hours.value": "Con cita previa, lunes a sábado",
     "contact.info.areas.label": "Área de Servicio",
-    "contact.info.areas.value": "Condados de Broward, Miami-Dade y Palm Beach (en persona) · Todo el mundo (virtual)",
+    "contact.info.areas.value": "Condados de Broward, Miami-Dade y Palm Beach (presencial) · Todo el mundo (virtual)",
 
     "footer.tagline": "Conectando idiomas. Construyendo confianza.",
     "footer.rights": "© 2026 Mastering Translations, LLC. Todos los derechos reservados.",
