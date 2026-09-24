@@ -395,6 +395,7 @@ section { padding: 5rem 0; }
 .contact-info dt { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-soft); }
 .contact-info dd { margin: 0.15em 0 0; font-weight: 600; color: var(--navy-950); overflow-wrap: anywhere; }
 .contact-info dd a:hover { color: var(--navy-900); text-decoration: underline; }
+.contact-info-email { text-align: center; }
 
 /* ---------- Footer ---------- */
 .site-footer { background: var(--navy-950); color: rgba(255,255,255,0.75); padding: 3rem 0 2rem; }
