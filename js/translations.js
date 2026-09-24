@@ -127,7 +127,7 @@ const translations = {
 
   es: {
     "meta.title": "Mastering Translations, LLC | Traducción e Interpretación Español ⇄ Inglés",
-    "meta.description": "Traducción certificada de documentos español-inglés e interpretación profesional para casos de inmigración, legales, médicos, de seguros, lesiones personales y asilo. Servimos Broward, Miami-Dade y Palm Beach en persona, y clientes en todo el mundo de forma virtual.",
+    "meta.description": "Traducción certificada de documentos español-inglés e interpretación profesional para casos de inmigración, legales, médicos, de seguros, lesiones personales y asilo. Atendemos Broward, Miami-Dade y Palm Beach en persona, y clientes en todo el mundo de forma virtual.",
 
     "skip.content": "Saltar al contenido",
 
@@ -146,7 +146,7 @@ const translations = {
 
     "hero.eyebrow": "Servicios Certificados de Español ⇄ Inglés",
     "hero.title": "Conectando Idiomas. <span>Construyendo Confianza.</span>",
-    "hero.subtitle": "Traducción de documentos e interpretación profesional para asuntos de inmigración, legales, médicos, de seguros y lesiones personales — servimos el sur de la Florida en persona y a clientes en todo el mundo, de forma virtual.",
+    "hero.subtitle": "Traducción de documentos e interpretación profesional para asuntos de inmigración, legales, médicos, de seguros y lesiones personales — atendemos el sur de la Florida en persona y a clientes en todo el mundo, de forma virtual.",
     "hero.cta.quote": "Solicitar Cotización Gratis",
     "hero.cta.call": "Llame al (754) 302-0237",
     "hero.badge.1": "En Persona: Broward · Miami-Dade · Palm Beach",
@@ -184,7 +184,7 @@ const translations = {
     "services.book.item3": "Autores independientes y autopublicados",
 
     "areas.eyebrow": "Dónde Trabajamos",
-    "areas.title": "Servimos al Sur de la Florida — y al Mundo",
+    "areas.title": "Atendemos al Sur de la Florida — y al Mundo",
     "areas.subtitle": "Citas en persona en todo el sur de la Florida. Servicios virtuales disponibles en cualquier momento y lugar.",
     "areas.inperson.title": "En Persona",
     "areas.inperson.broward": "Condado de Broward",
