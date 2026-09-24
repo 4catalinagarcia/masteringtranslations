@@ -410,8 +410,7 @@ section { padding: 5rem 0; }
 .footer-logo { height: 100px; width: auto; }
 .footer-tagline { margin: 0; font-size: 0.85rem; }
 .footer-spanish { font-style: italic; color: var(--gold-500); margin: 0; }
-.footer-rights { font-size: 0.82rem; margin: 0.5rem 0 0; }
-.footer-disclaimer { font-size: 0.76rem; max-width: 640px; opacity: 0.7; margin: 0.4rem 0 0; }
+.footer-disclaimer { font-size: 0.76rem; max-width: 640px; opacity: 0.7; margin: 0.5rem 0 0; }
 .footer-visitors { font-size: 0.78rem; margin: 1rem 0 0; color: rgba(255,255,255,0.6); }
 .footer-visitors #visitor-count { color: var(--gold-500); font-weight: 700; }
 
