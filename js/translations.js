@@ -185,7 +185,7 @@ const translations = {
 
     "areas.eyebrow": "Dónde Trabajamos",
     "areas.title": "Atendemos al Sur de la Florida — y al Mundo",
-    "areas.subtitle": "Citas en persona en todo el sur de la Florida. Servicios virtuales disponibles en cualquier momento y lugar.",
+    "areas.subtitle": "Citas presenciales en todo el sur de la Florida. Servicios virtuales disponibles en cualquier momento y lugar.",
     "areas.inperson.title": "En Persona",
     "areas.inperson.broward": "Condado de Broward",
     "areas.inperson.miamidade": "Condado de Miami-Dade",
