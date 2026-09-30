@@ -16,7 +16,6 @@ All visible text lives in **`js/translations.js`**, once for English (`en`) and 
 Real phone (`(754) 302-0237`) and email (`info@masteringtranslations.com`) are already wired into `translations.js` and the `tel:`/`mailto:` links in `index.html`.
 
 Still a placeholder before launch:
-- Testimonials — currently placeholder quotes; replace with real client testimonials (with permission) and delete the note under them.
 - Business hours, in `contact.info.hours.value`.
 
 ## The language toggle
